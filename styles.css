@@ -27,7 +27,7 @@ input {
 
     padding: 8px;
 
-    width: 13rem;
+    min-width: 25vw;
     height: 1.75rem;
 }
 
@@ -147,7 +147,7 @@ a {
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 .submit-button {
