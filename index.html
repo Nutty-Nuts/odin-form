@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="minor background">
+            <div class="minor bg-blank"></div>
+            <div class="minor logo">
+                <img src="./assets/odin-lined.png" class="logo-image"></img>
+                <div class="logo-font">ODIN</div>
+            </div>
+        </div>
+        <div class="major content">
+            <div class="major top-blank"></div>
+            <div class="major info">
+                <p>
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams. Sign up <i>now</i> to get started.
+                </p>
+
+                <p>You <i>know</i> you want to.</p>
+
+                <br />
+            </div>
+            <div class="major form">
+                <h1>Let's do this</h1>
+
+                <br />
+
+                <form class="forms" id="main-form" action="">
+                    <div class="col">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname" />
+
+                        <br />
+
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" />
+
+                        <br />
+
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" />
+                    </div>
+                    <div class="col">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" name="lname" id="lname" />
+
+                        <br />
+
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="number" name="phone" id="phone" />
+
+                        <br />
+
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm" id="confirm" />
+                    </div>
+                </form>
+            </div>
+            <div class="major options">
+                <button type="submit" form="main-form" class="submit-button">Create Account</button>
+                <br />
+                <br />
+                <br>
+                <p class="log-in">Already Have an Account? <a href="">Log In</a></p>
+            </div>
+        </div>
+    </body>
+
+    <script src="./main.js"></script>
+</html>

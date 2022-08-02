@@ -1,0 +1,180 @@
+body {
+    display: flex;
+
+    padding: 0%;
+    margin: 0%;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+input {
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    padding: 8px;
+
+    width: 13rem;
+    height: 1.75rem;
+}
+
+a {
+    text-decoration: none;
+
+    color: #596d48;
+}
+
+/* Horizontal Size Classes */
+
+.major {
+    width: 65vw;
+}
+
+.minor {
+    width: 35vw;
+}
+
+/* Background Area */
+
+.background {
+    height: 100vh;
+
+    background-image: url(./assets//background.avif);
+}
+
+.bg-blank {
+    height: 15%;
+}
+
+.logo {
+    height: 20%;
+
+    background-color: black;
+    opacity: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    width: 40%;
+    height: auto;
+}
+
+.logo-font {
+    font-family: Norse;
+    font-size: 6rem;
+    color: white;
+}
+
+/* Content and Form Area */
+
+.content {
+    background-color: whitesmoke;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.top-blank {
+    background-color: whitesmoke;
+    height: 15%;
+}
+
+.info {
+    background-color: whitesmoke;
+    height: 25%;
+    padding: 2rem;
+
+    box-sizing: border-box;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form {
+    background-color: white;
+    height: 35%;
+
+    padding: 2rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.111);
+}
+
+.options {
+    height: 25%;
+
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+
+    align-items: left;
+    justify-content: left;
+
+    margin-right: 4rem;
+
+    flex-direction: column;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.submit-button {
+    background-color: #596d48;
+    border: none;
+    border-radius: 0.5rem;
+
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.223);
+
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #4d5d3e;
+}
+
+.submit-button:active {
+    background-color: #37432c;
+    color: whitesmoke;
+}
+
+.log-in {
+    font-weight: bold;
+}
